@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+	int numero1;
+	
+	printf("Impar ou par \n");
+	printf("Digite o numero: \n");
+	scanf("%i", &numero1,"\n");
+	if (numero1%2 ==0) {
+		printf("e PAR");		
+	} else {
+		printf("e IMPAR");
+	}
+	
+	return 0;
+}
