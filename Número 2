@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+	int numero1, numero2;
+	
+	printf("Somar dois numeros \n");
+	printf("Digite o primeiro numero: \n");
+	scanf("%i", &numero1);
+	printf("Digite o segundo numero: \n");
+	scanf("%i", &numero2);
+	
+	int soma = numero1+numero2;
+	printf("Resultado da soma: %i", soma);
+	
+	return 0;
+}
