@@ -2,13 +2,11 @@
 #include <stdlib.h>
 
 int main () {
-	const double PI = 3.141592;
-	double raio;
-    printf("Digite o raio do circulo: \n");
-    scanf("%lf", &raio);
-    if ( raio >= 0){
-    	double area = PI * raio * raio;
-    	printf("\nÁrea do círculo: %lf\n", area);
-    }
+	float lado, area, dobro;
+    printf("Digite o lado do quadrado: ");
+    scanf("%f", &lado);
+    area = pow(lado, 2);
+    dobro = area * 2;
+    printf("O dobro da area do quadrado de lado %.2f eh %.2f", lado, dobro);
     return 0;
 }
